@@ -1,0 +1,47 @@
+/* styles.css */
+
+body { /* This is 1. there is no "{" */ 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    overflow-x: hidden;
+}
+
+header { /* This is 2. This was a heading before it was modified. */
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+
+main section {
+    margin: 20px;
+} /* This is 3. there is no "}" */
+
+footer {
+    position: absolute;
+    bottom: 0; /* This is 4. there is no ";" */ 
+    right: 0;
+    width: 100vw;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center; /* This is 5. there is no ":" */
+}
